@@ -1,0 +1,52 @@
+#box{
+	position: relative;
+	width: 40%;
+	margin: 30px auto;
+}
+#box:before{
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+#content{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: grey;
+	margin: 0px;
+}
+p{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 40px;
+	text-align: center;
+	margin: 0px;
+	color: rgb(52, 97, 146);
+}
+
+button{
+	margin: 20px auto;
+	display: block;
+	width: 10%;
+	height: 90px;
+	border-radius: 10%;
+	background: rgba(74, 138, 209, 0.65);
+	color: white;
+	font-size: 30px;
+}
+body{
+	background-color: rgb(234, 253, 255);
+}
+span{
+	color: rgb(216, 25, 90);
+}
+.elem{
+	margin: 4.9px;
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	transition: .9s ease;
+	position: relative;
+}
